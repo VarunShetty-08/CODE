@@ -1,6 +1,6 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int minsum=9999;
+        int minsum=Integer.MAX_VALUE;
         int maxprofit=0;
         for(int price:prices){
             if(price<minsum){
